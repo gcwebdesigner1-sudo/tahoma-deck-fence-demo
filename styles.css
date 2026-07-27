@@ -164,25 +164,19 @@ h1,h2,h3{
     linear-gradient(90deg, rgba(11,17,13,.55) 0%, rgba(11,17,13,0) 68%);
 }
 .hero-inner{
-  padding-block:clamp(5rem, 15vh, 9rem) clamp(6rem, 16vh, 10rem);
+  padding-block:clamp(5.5rem, 16vh, 9.5rem) clamp(6rem, 16vh, 10rem);
   color:#fff;
-  max-width:calc(var(--wrap) - 0px);
+  text-align:center;
 }
 .hero h1{
-  font-size:clamp(2.7rem, 1.4rem + 6vw, 5.6rem);
+  font-size:clamp(2.5rem, .9rem + 5.6vw, 5.4rem);
   color:#fff;
-  margin-bottom:1.35rem;
+  margin-bottom:2.4rem;
 }
-.hero-sub{
-  max-width:36rem;
-  font-size:clamp(1.02rem, .98rem + .3vw, 1.2rem);
-  color:rgba(255,255,255,.9);
-  margin:0 0 2.2rem;
-}
-.hero-cta{ display:flex; flex-wrap:wrap; gap:.85rem; }
+.hero-cta{ display:flex; flex-wrap:wrap; gap:.85rem; justify-content:center; }
 .hero-badges{
   list-style:none; margin:2.4rem 0 0; padding:0;
-  display:flex; flex-wrap:wrap; gap:.6rem 2rem;
+  display:flex; flex-wrap:wrap; gap:.6rem 2rem; justify-content:center;
   font-size:.9rem; color:rgba(255,255,255,.85);
 }
 .hero-badges strong{ color:var(--cedar-lt); font-family:var(--display); }
@@ -201,8 +195,7 @@ h1,h2,h3{
   /* The fence — the subject — sits low in the frame, so favour the
      bottom of the photo once the crop turns tall. */
   .hero-media img{ object-position:58% 82%; }
-  .hero-inner{ padding-block:3.25rem 4.75rem; }
-  .hero h1 br{ display:none; }
+  .hero-inner{ padding-block:3.75rem 4.75rem; }
   .eyebrow{ letter-spacing:.15em; font-size:.7rem; }
   .hero-cta .btn{ flex:1 1 100%; }
   .hero-badges{ gap:.45rem 1.5rem; font-size:.85rem; margin-top:1.9rem; }
